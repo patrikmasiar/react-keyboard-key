@@ -64,4 +64,5 @@ const ExampleComponent: FC<Props> = () => {
 ```
 
 ## Project
-[whatdidipress.com](https://whatdidipress.com/)
+* [whatdidipress.com](https://whatdidipress.com/)
+* [Github project whatdidipress.com](https://github.com/massoprod/what-did-i-press/)
