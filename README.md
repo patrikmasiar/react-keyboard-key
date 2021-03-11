@@ -1,6 +1,6 @@
-[![npm](https://img.shields.io/npm/v/ract-keyboard-key?style=plastic)](https://www.npmjs.com/package/ract-keyboard-key)
-[![NPM](https://img.shields.io/npm/l/ract-keyboard-key)](https://github.com/massoprod/ract-keyboard-key/blob/master/LICENSE)
-[![NPM](https://img.shields.io/npm/dy/ract-keyboard-key?style=plastic)](https://www.npmjs.com/package/ract-keyboard-key)
+[![npm](https://img.shields.io/npm/v/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
+[![NPM](https://img.shields.io/npm/l/react-keyboard-key)](https://github.com/massoprod/react-keyboard-key/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/dy/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
 
 # react-keyboard-key
 Container and hook with keyboard event listener.
