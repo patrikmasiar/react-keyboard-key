@@ -1,0 +1,69 @@
+{
+  "name": "react-keyboard-key",
+  "version": "1.0.0",
+  "author": "Patrik Mäsiar",
+  "description": "ReactJS keyboard key info container and hook",
+  "private": false,
+  "main": "index.js",
+  "keywords": [
+    "reactjs",
+    "react",
+    "keyboard",
+    "key",
+    "event",
+    "events",
+    "javascript",
+    "typescript",
+    "hook",
+    "container"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massoprod/react-keyboard-key.git"
+  },
+  "bugs": {
+    "url": "https://github.com/massoprod/react-keyboard-key/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf build && NODE_ENV=production babel src --out-dir build --copy-files && babel package.json -d build --copy-files",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "deploy": "cd build && npm publish",
+    "lint": "eslint src/components/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jest-css-modules-transform": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
