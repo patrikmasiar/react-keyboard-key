@@ -1,6 +1,6 @@
 {
   "name": "react-keyboard-key",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "author": "Patrik Mäsiar",
   "description": "ReactJS keyboard key info container and hook",
   "private": false,
