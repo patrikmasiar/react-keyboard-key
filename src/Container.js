@@ -1,10 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 
 const KeyListenerContainer = ({ children, onKeyDownCallback }) => {
-  const [keyInfo, setKeyInfo] = useState<KeyInfo>({
+  const [keyInfo, setKeyInfo] = useState({
     key: null,
     code: null,
-    keyCode: null
+    keyCode: null,
+    output: null,
   });
 
   useEffect(() => {
@@ -32,6 +33,7 @@ const KeyListenerContainer = ({ children, onKeyDownCallback }) => {
       key: e.key,
       code: e.code,
       keyCode: e.keyCode,
+      output: e,
     });
   }, []);
 

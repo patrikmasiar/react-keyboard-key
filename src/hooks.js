@@ -5,6 +5,7 @@ export const useKeyboardKey = (onKeyDownCallback) => {
     key: null,
     code: null,
     keyCode: null,
+    output: null,
   });
 
   useEffect(() => {
@@ -32,6 +33,7 @@ export const useKeyboardKey = (onKeyDownCallback) => {
       key: e.key,
       code: e.code,
       keyCode: e.keyCode,
+      output: e,
     });
   }, []);
 
