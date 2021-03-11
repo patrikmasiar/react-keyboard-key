@@ -46,7 +46,7 @@ const ExampleComponent: FC<Props> = ({ children }) => {
 
 ### Hook
 ```javascript
-import { KeyListenerContainer } from 'react-keyboard-key';
+import { useKeyboardKey } from 'react-keyboard-key';
 
 const ExampleComponent: FC<Props> = () => {
   const { keyInfo } = useKeyboardKey(onKeyDownCallback);
