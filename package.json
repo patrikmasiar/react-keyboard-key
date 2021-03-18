@@ -1,6 +1,6 @@
 {
   "name": "react-keyboard-key",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": "Patrik Mäsiar",
   "description": "ReactJS keyboard key info container and hook",
   "private": false,
@@ -20,10 +20,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/massoprod/react-keyboard-key.git"
+    "url": "git+https://github.com/patrikmasiar/react-keyboard-key.git"
   },
   "bugs": {
-    "url": "https://github.com/massoprod/react-keyboard-key/issues"
+    "url": "https://github.com/patrikmasiar/react-keyboard-key/issues"
   },
   "peerDependencies": {
     "react": "^16.12.0",

@@ -1,5 +1,5 @@
 [![npm](https://img.shields.io/npm/v/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
-[![NPM](https://img.shields.io/npm/l/react-keyboard-key)](https://github.com/massoprod/react-keyboard-key/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react-keyboard-key)](https://github.com/patrikmasiar/react-keyboard-key/blob/master/LICENSE)
 [![NPM](https://img.shields.io/npm/dy/react-keyboard-key?style=plastic)](https://www.npmjs.com/package/react-keyboard-key)
 
 # react-keyboard-key
@@ -65,4 +65,4 @@ const ExampleComponent: FC<Props> = () => {
 
 ## Project
 * [whatdidipress.com](https://whatdidipress.com/)
-* [Github project whatdidipress.com](https://github.com/massoprod/what-did-i-press/)
+* [Github project whatdidipress.com](https://github.com/patrikmasiar/what-did-i-press/)
